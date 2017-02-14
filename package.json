@@ -45,6 +45,7 @@
     "snyk": "^1.19.1"
   },
   "dependencies": {
-    "phantomjs-prebuilt": "^2.1.14"
+    "phantomjs-prebuilt": "^2.1.14",
+    "tough-cookie": "^2.3.0"
   }
 }
