@@ -10,7 +10,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test",
+    "test": "snyk test && ember test",
     "postinstall": "bower install"
   },
   "repository": "",
@@ -45,9 +45,10 @@
     "snyk": "^1.19.1"
   },
   "dependencies": {
-    "node-gyp": "3.4.0",
+    "node-gyp": "^3.4.0",
     "phantomjs-prebuilt": "^2.1.14",
-    "request": "2.79.0",
+    "qs": "^6.2.3",
+    "request": "^2.79.0",
     "tough-cookie": "2.3.0"
   }
 }
