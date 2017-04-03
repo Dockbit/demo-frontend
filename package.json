@@ -10,8 +10,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "snyk test && ember test",
-    "postinstall": "bower install"
+    "test": "snyk test && ember test"
   },
   "repository": "",
   "engines": {
