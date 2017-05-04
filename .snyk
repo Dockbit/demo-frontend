@@ -1,9 +1,52 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.7.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:concat-stream:20160901':
     - phantomjs-prebuilt > extract-zip > concat-stream:
         reason: None given
-        expires: '2017-04-08T10:07:07.927Z'
+        expires: '2017-06-03T13:03:14.716Z'
+  'npm:brace-expansion:20170302':
+    - fs-vacuum > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.713Z'
+    - fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.714Z'
+    - fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.714Z'
+    - node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.714Z'
+    - node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - node-gyp > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - init-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - init-package-json > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - read-installed > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - read-package-tree > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - node-gyp > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - fstream-npm > fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.715Z'
+    - node-gyp > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-06-03T13:03:14.716Z'
 patch: {}
