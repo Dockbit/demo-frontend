@@ -5,48 +5,91 @@ ignore:
   'npm:concat-stream:20160901':
     - phantomjs-prebuilt > extract-zip > concat-stream:
         reason: None given
-        expires: '2017-06-03T13:03:14.716Z'
+        expires: '2017-07-29T11:15:59.788Z'
   'npm:brace-expansion:20170302':
     - fs-vacuum > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.713Z'
+        expires: '2017-07-29T11:15:59.785Z'
     - fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.714Z'
+      init-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
     - fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.714Z'
+      init-package-json > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
     - node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.714Z'
+      read-installed > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
     - node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      read-package-tree > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - node-gyp > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - init-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - init-package-json > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      node-gyp > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - read-installed > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      node-gyp > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - read-package-tree > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      node-gyp > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - node-gyp > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - fstream-ignore > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
+      node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
     - fstream-npm > fstream-ignore > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
+        expires: '2017-07-29T11:15:59.787Z'
     - node-gyp > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.716Z'
+      fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.788Z'
+  'npm:ms:20170412':
+    - array-index > debug > ms:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
+    - path-array > array-index > debug > ms:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
 patch: {}
