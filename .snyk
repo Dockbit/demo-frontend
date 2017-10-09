@@ -5,91 +5,136 @@ ignore:
   'npm:concat-stream:20160901':
     - phantomjs-prebuilt > extract-zip > concat-stream:
         reason: None given
-        expires: '2017-07-29T11:15:59.788Z'
+        expires: '2017-11-08T09:30:29.189Z'
   'npm:brace-expansion:20170302':
     - fs-vacuum > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-07-29T11:15:59.785Z'
+        expires: '2017-11-08T09:30:29.190Z'
     - fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.714Z'
-      init-package-json > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.785Z'
+        expires: '2017-11-08T09:30:29.190Z'
     - fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.714Z'
-      init-package-json > read-package-json > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.785Z'
+        expires: '2017-11-08T09:30:29.190Z'
     - node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.714Z'
-      read-installed > read-package-json > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.785Z'
+        expires: '2017-11-08T09:30:29.190Z'
     - node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.190Z'
+    - node-gyp > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.190Z'
+    - init-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.190Z'
+    - init-package-json > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.190Z'
+    - read-installed > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
       read-package-tree > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-07-29T11:15:59.787Z'
-    - node-gyp > rimraf > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
-      fstream-ignore > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.787Z'
-    - init-package-json > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
-      fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.787Z'
-    - init-package-json > read-package-json > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
-      node-gyp > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.787Z'
-    - read-installed > read-package-json > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
-      node-gyp > glob > minimatch > brace-expansion:
-        reason: None given
-        expires: '2017-07-29T11:15:59.787Z'
+        expires: '2017-11-08T09:30:29.190Z'
     - read-package-tree > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-06-03T13:03:14.715Z'
-      node-gyp > rimraf > glob > minimatch > brace-expansion:
+      read-installed > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-07-29T11:15:59.787Z'
+        expires: '2017-11-08T09:30:29.190Z'
     - node-gyp > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
-      node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
+        expires: '2017-11-08T09:30:29.191Z'
+    - fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.191Z'
+    - fstream-npm > fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.191Z'
+    - node-gyp > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-11-08T09:30:29.192Z'
+    - init-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
+    - init-package-json > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
+    - read-installed > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.785Z'
+    - read-package-tree > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-07-29T11:15:59.787Z'
     - fstream-ignore > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.715Z'
-      node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
-        reason: None given
         expires: '2017-07-29T11:15:59.787Z'
-    - fstream-npm > fstream-ignore > minimatch > brace-expansion:
+    - fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-07-29T11:15:59.787Z'
     - node-gyp > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-06-03T13:03:14.716Z'
-      fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        expires: '2017-07-29T11:15:59.787Z'
+    - node-gyp > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
+    - node-gyp > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
+    - node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
+    - node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-29T11:15:59.787Z'
+    - fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
         expires: '2017-07-29T11:15:59.788Z'
   'npm:ms:20170412':
     - array-index > debug > ms:
         reason: None given
-        expires: '2017-07-29T11:15:59.785Z'
+        expires: '2017-11-08T09:30:29.189Z'
     - path-array > array-index > debug > ms:
         reason: None given
-        expires: '2017-07-29T11:15:59.785Z'
+        expires: '2017-11-08T09:30:29.189Z'
+  'npm:debug:20170905':
+    - array-index > debug:
+        reason: None given
+        expires: '2017-11-08T09:30:29.188Z'
+    - path-array > array-index > debug:
+        reason: None given
+        expires: '2017-11-08T09:30:29.189Z'
+    - phantomjs-prebuilt > extract-zip > debug:
+        reason: None given
+        expires: '2017-11-08T09:30:29.192Z'
+  'npm:tough-cookie:20170905':
+    - node-gyp > request > tough-cookie:
+        reason: None given
+        expires: '2017-11-08T09:30:29.189Z'
+    - npm-registry-client > request > tough-cookie:
+        reason: None given
+        expires: '2017-11-08T09:30:29.189Z'
+    - phantomjs-prebuilt > request > tough-cookie:
+        reason: None given
+        expires: '2017-11-08T09:30:29.189Z'
+    - request > tough-cookie:
+        reason: None given
+        expires: '2017-11-08T09:30:29.189Z'
+    - tough-cookie:
+        reason: None given
+        expires: '2017-11-08T09:30:29.190Z'
+  'npm:tunnel-agent:20170305':
+    - request > tunnel-agent:
+        reason: None given
+        expires: '2017-11-08T09:30:29.192Z'
+    - npm-registry-client > request > tunnel-agent:
+        reason: None given
+        expires: '2017-11-08T09:30:29.192Z'
+    - node-gyp > request > tunnel-agent:
+        reason: None given
+        expires: '2017-11-08T09:30:29.192Z'
+    - phantomjs-prebuilt > request > tunnel-agent:
+        reason: None given
+        expires: '2017-11-08T09:30:29.192Z'
 patch: {}
